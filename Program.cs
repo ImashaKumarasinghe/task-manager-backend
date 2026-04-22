@@ -6,6 +6,18 @@ using mini_task_manager_backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("https://taskmanager-imasha.vercel.app")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -41,11 +53,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowFrontend");
+
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
+app.UseCors("AllowFrontend");
 
+app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
