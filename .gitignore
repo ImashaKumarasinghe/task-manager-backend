@@ -1,0 +1,9 @@
+# Firebase secret
+firebase-service-account.json
+
+# .NET
+bin/
+obj/
+
+# VS Code
+.vscode/

@@ -1,11 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using mini_task_manager_backend.Data;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
+using mini_task_manager_backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<FirebaseTokenService>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
@@ -22,6 +26,12 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+
+FirebaseApp.Create(new AppOptions()
+{
+    Credential = GoogleCredential.FromFile("firebase-service-account.json")
+});
+
 
 var app = builder.Build();
 
