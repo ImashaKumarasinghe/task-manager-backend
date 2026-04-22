@@ -123,3 +123,13 @@ C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-bac
 C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\obj\Debug\net10.0\mini-task-manager-backend.pdb
 C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\obj\Debug\net10.0\mini-task-manager-backend.genruntimeconfig.cache
 C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\obj\Debug\net10.0\ref\mini-task-manager-backend.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\firebase-service-account.json
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\FirebaseAdmin.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\Google.Api.Gax.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\Google.Api.Gax.Rest.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\Google.Apis.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\Google.Apis.Auth.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\Google.Apis.Core.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\System.Management.dll
+C:\Users\NMC\Desktop\TaskManagementAssignment\backend repo\mini-task-manager-backend\bin\Debug\net10.0\runtimes\win\lib\net7.0\System.Management.dll

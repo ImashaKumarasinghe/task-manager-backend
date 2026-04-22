@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mini-task-manager-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+034e971d68e0cd74bf739f8ae52d5d8222fb3c78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6874ea7e92760aa7c4c3956e3484f2906105118")]
 [assembly: System.Reflection.AssemblyProductAttribute("mini-task-manager-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mini-task-manager-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
